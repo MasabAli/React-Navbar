@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(24, 34, 34);
+    color: #fff;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+nav .nav-link{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+nav .nav-link a{
+    font-size: 16px;
+    font-weight: lighter;
+    cursor: pointer;
+    
+
+}
+nav .nav-link a:hover{
+    border-bottom: 1px solid #fff;
+}

@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
+import './NavBar.css';
 function NavBar() {
   return (
     <Fragment>
       <div>
         <nav>
-          <div className="logo">MASAB</div>
+          <div className="logo">Masab</div>
           <ul className="nav-link">
             <li>
               <a>Home</a>
